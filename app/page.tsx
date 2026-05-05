@@ -6,7 +6,7 @@ import { DynamicGridPattern } from '@/components/ui/DynamicGridPattern'
 import { SpotlightBorder } from '@/components/ui/SpotlightBorder'
 import { InfiniteCarousel } from '@/components/ui/InfiniteCarousel'
 import { motion } from 'framer-motion'
-import { Mail, Terminal, Briefcase, GraduationCap, Code2, ArrowUpRight, FolderGit2, Award, PenTool, Linkedin, Github, Globe } from 'lucide-react'
+import { Mail, Terminal, Briefcase, GraduationCap, Code2, ArrowUpRight, FolderGit2, Award, PenTool, Linkedin, Github, Globe, FileDown } from 'lucide-react'
 import { ModeToggle } from '@/components/mode-toggle'
 
 export default function Home() {
@@ -35,9 +35,19 @@ export default function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="z-10 w-full"
           >
-            <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-br from-black to-zinc-500 dark:from-white dark:to-zinc-500 pb-2">
-              {personalData.name}
-            </h1>
+            <div className="flex items-center gap-4 sm:gap-8 mb-4 flex-wrap">
+              <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-br from-black to-zinc-500 dark:from-white dark:to-zinc-500 pb-1">
+                {personalData.name}
+              </h1>
+              <a 
+                href="/Sahil_Bansal_Resume.pdf" 
+                download 
+                className="flex items-center gap-2 px-4 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-bold shadow-[0_0_20px_rgba(5,150,105,0.4)] transition-all h-fit"
+              >
+                <FileDown className="w-4 h-4" />
+                PDF
+              </a>
+            </div>
             <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-8">
               <h2 className="text-xl sm:text-3xl font-semibold text-zinc-600 dark:text-zinc-400 flex items-center gap-3">
                 <span className="text-emerald-500 font-mono font-bold tracking-tighter drop-shadow-[0_0_8px_rgba(16,185,129,0.4)]">{`>_`}</span>
