@@ -1,72 +1,61 @@
-# 🚀 Premium Interactive Resume & Portfolio Template
+# 🚀 Sahil Bansal | DevOps & Cloud Infrastructure Portfolio
 
-A **production-ready, highly interactive resume and portfolio template** built with Next.js, Tailwind CSS, and Framer Motion. Engineered to deliver a high-end SaaS-like experience, this template allows you to showcase your engineering depth, projects, and career progression with world-class aesthetics.
+Welcome to my interactive portfolio. This is a **production-ready, highly interactive resume** built with Next.js, Tailwind CSS, and Framer Motion. It showcases my engineering depth, cloud infrastructure projects, and career progression with a high-end SaaS-inspired design.
 
 ---
 
-## 🤔 The Problem It Solves
+## 👨‍💻 About Me
 
-* **Static resumes are boring** and lack the interactivity needed to impress modern hiring teams.
-* It is extremely difficult to showcase **deep engineering work, architecture, and case studies** on standard PDF resumes.
-* Existing portfolio templates often lack **modern UX, premium motion, and a cohesive design system**.
+I am a **DevOps & Cloud Infrastructure Engineer** obsessed with reliability, automation, and building systems that don't break at 3 AM. Currently architecting scalable infrastructure at **Buyogo AG**.
 
-## 🎯 Who Can Use It?
+## ✨ Key Features
 
-* **Software Engineers & Developers** wanting to highlight deep technical architecture.
-* **DevOps & Cloud Engineers** showcasing infrastructure and pipelines.
-* **Product Designers & UI/UX Professionals** needing a pixel-perfect, motion-rich canvas.
-* **Students & Tech Professionals** looking to stand out with a world-class digital presence.
+*   **Premium UI/UX:** Clean, Linear-inspired modern aesthetics with a sophisticated dark/light mode system.
+*   **PDF Resume Integration:** Instant access to my latest CV via a dedicated, glow-styled download button.
+*   **Interactive Experience Timeline:** Clickable company links (Buyogo, Capgemini, ZabeSync, Qapita) for verified career history.
+*   **Engineering Case Studies:** Detailed project pages that break down the Problem, Architecture, and Impact of my work.
+*   **Editorial Blog:** Technical write-ups and tutorials rendered with structured typography and code blocks.
+*   **Performance First:** Built with Next.js App Router for unmatched speed and SEO.
 
-## ✨ Features
+## 🛠 Tech Stack
 
-* **Premium UI/UX:** Clean, Apple/Linear-inspired modern aesthetics with a sophisticated color system.
-* **Smooth Animations:** Framer Motion-powered micro-interactions, interactive spotlight cards, and seamless page transitions.
-* **Rich Components:** Dynamic grid backgrounds, minimal glowing badges, and narrative-driven vertical experience timelines.
-* **Engineering Case Studies:** Built-in internal project pages designed to read like real-world engineering case studies (Problem, Architecture, Stack, Impact).
-* **Editorial Blog Engine:** Hashnode/Medium-style blog layouts with structured typography, code blocks, and styled callouts.
-* **No Backend Required:** 100% static-first approach for unmatched speed, security, and SEO.
-* **Fully Responsive:** Pixel-perfect behavior across Desktop, Tablet, and Mobile.
+*   **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+*   **Icons:** [Lucide React](https://lucide.dev/)
+*   **Package Manager:** [pnpm](https://pnpm.io/)
+*   **Deployment:** [Vercel](https://vercel.com/)
 
-## 🛠 How to Customize
+## 🚀 Getting Started (For Development)
 
-The entire data layer is cleanly abstracted into a single file for easy customization. You do not need to rewrite complex UI components to update your information.
+1.  **Install dependencies:**
+    ```bash
+    pnpm install
+    ```
 
-Simply edit **`data/profile.ts`** to update:
-- Personal Details & Social Links
-- Experience Timeline & Narrative
-- Featured Projects & Case Studies
-- Skills & Certifications
+2.  **Run the development server:**
+    ```bash
+    pnpm dev
+    ```
 
-## 🚀 Getting Started
-
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-2. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
-
-3. **Open your browser:** Navigate to [http://localhost:3000](http://localhost:3000)
+3.  **Open your browser:** Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## ☁️ Deployment
 
-This project is optimized for extremely fast, zero-config deployment on **Vercel**. 
+This project is deployed on **Vercel** with automatic CI/CD from the `master` branch.
 
-1. Push your customized code to GitHub.
-2. Import the project into Vercel.
-3. Vercel will automatically detect the Next.js framework and build the site.
-
-To build manually for production export:
+To build manually for production:
 ```bash
-npm run build
-npm run start
+pnpm build
+pnpm start
 ```
 
-## 🏆 Why This Project Stands Out
+---
 
-* **Production-Grade Engineering:** Clean component architecture, optimal accessibility (contrast, keyboard navigation), and minimal JS bloat.
-* **Built for Storytelling:** Features an interactive timeline and editorial layouts to help you tell the story behind your code, rather than just listing tech stacks.
-* **Real-World Ready:** Actually battle-tested and refined for real-world portfolio use.
+## 🏆 Personal Highlights
+*   **40% AWS Spend Reduction** achieved at Buyogo AG.
+*   **99.99% Availability** architecture for multi-tenant FTP platforms.
+*   **Creator of Claude Superpack**: A 22-skill orchestration system for AI agents.
+
+---
+Built with ❤️ by [Sahil Bansal](https://github.com/sahilbnsll)
