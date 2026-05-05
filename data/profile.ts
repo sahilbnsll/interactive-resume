@@ -9,7 +9,11 @@ export const personalData = {
 export const socialsData = [
   { name: "LinkedIn", href: "https://linkedin.com/in/sahilbansal24", icon: "linkedin" },
   { name: "GitHub", href: "https://github.com/sahilbnsll", icon: "github" },
-  { name: "Email", href: "mailto:sahilbansal.sb24@gmail.com", icon: "mail" }
+]
+
+export const portfoliosData = [
+  { name: "Main Portfolio", href: "https://sahilbansal.vercel.app/" },
+  { name: "Showproof", href: "https://showproof.io/@sahil" }
 ]
 
 export const experienceData = [
@@ -62,9 +66,9 @@ export const educationData = [
 ]
 
 export const skillsCarousel = [
-  "AWS", "Kubernetes", "Docker", "Terraform", "GitHub Actions", 
+  "Supabase", "AWS", "Kubernetes", "Docker", "Terraform", "GitHub Actions", 
   "Prometheus", "Grafana", "PostgreSQL", "Python", "Bash", 
-  "MongoDB", "CloudFormation", "ClickHouse", "n8n", "Supabase"
+  "MongoDB", "CloudFormation", "ClickHouse", "n8n"
 ]
 
 export const detailedSkills = [
@@ -106,9 +110,9 @@ export const projectsData = [
 ]
 
 export const certificationsData = [
-  { name: "DevOps on AWS Specialization", organization: "Amazon Web Services", date: "Feb 2024", url: "https://www.coursera.org/account/accomplishments/specialization/LF56PF27EJDY" },
+  { name: "DevOps on AWS Specialization", organization: "Amazon Web Services", date: "Feb 2024", url: "https://coursera.org/share/92a9be263fbfbe465d47dd92710b48ed" },
   { name: "Postman API Fundamentals", organization: "Postman", date: "Jul 2024", url: "https://api.badgr.io/public/assertions/X2ceMM37RqugIm-X52dVgQ" },
-  { name: "Agile with Atlassian Jira", organization: "Atlassian", date: "Jan 2024", url: "https://www.coursera.org/account/accomplishments/records/93BY9N49MRUA" }
+  { name: "Agile with Atlassian Jira", organization: "Atlassian", date: "Jan 2024", url: "https://coursera.org/share/ba5609f08d284e1c7089d0b4f4789835" }
 ]
 
 export const blogsData = [
