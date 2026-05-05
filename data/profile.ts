@@ -12,7 +12,7 @@ export const socialsData = [
 ]
 
 export const portfoliosData = [
-  { name: "Main Portfolio", href: "https://sahilbansal.vercel.app/" },
+  { name: "Portfolio", href: "https://sahilbansal.vercel.app/" },
   { name: "Showproof", href: "https://showproof.io/@sahil" }
 ]
 
@@ -84,28 +84,28 @@ export const detailedSkills = [
 
 export const projectsData = [
   {
+    name: "LinkedIn Content Automation Pipeline",
+    description: "End-to-end automation pipeline deployed on AWS EC2 using n8n and Docker. Orchestrates AI-assisted content ideation, generation, and scheduled delivery via Discord control plane.",
+    tags: ["AWS EC2", "n8n", "Docker", "Automation", "AI"],
+    href: "/projects/zabesync"
+  },
+  {
     name: "Claude Superpack",
-    description: "Built a 33-skill agentic orchestration system for Claude Code featuring persistent memory, blast-radius-aware codebase graphs, parallel worker coordination, and self-improving behavior.",
-    tags: ["Claude Code", "AI Agents", "TypeScript", "Node.js"],
+    description: "Built a 22-skill agentic orchestration system for Claude Code featuring persistent memory, blast-radius-aware codebase graphs, parallel worker coordination, and self-improving behavior.",
+    tags: ["Claude Code", "AI Agents", "TypeScript", "Knowledge Graph"],
     href: "https://github.com/sahilbnsll/claude-superpack"
+  },
+  {
+    name: "Naukri Automation Bot",
+    description: "Production-ready headless browser automation tool designed to bypass bot detection and perform seamless, daily resume updates, ensuring maximum profile visibility and freshness.",
+    tags: ["Puppeteer/Playwright", "Headless Automation", "Node.js", "Bot Evasion"],
+    href: "/projects/naukri-bot"
   },
   {
     name: "LumaCV: AI Resume Intelligence",
     description: "AI-powered resume intelligence platform that automates ATS-optimized resume generation using multi-LLM failover and deterministic LaTeX rendering.",
     tags: ["Next.js", "AI/LLM", "Supabase", "LaTeX"],
     href: "https://luma-cv.vercel.app/"
-  },
-  {
-    name: "Multi-Tenant Merchant Platform",
-    description: "Built a 99.99% available multi-tenant SFTP gateway with automated AWS provisioning. Supports 500+ merchants simultaneously with zero unplanned downtime.",
-    tags: ["AWS", "Terraform", "High Availability", "SFTP"],
-    href: "#"
-  },
-  {
-    name: "Real-Time Data Pipeline",
-    description: "Real-time ELT stack with Dagster and ClickHouse that turns minute-long analytics waits into sub-100ms dashboards.",
-    tags: ["Dagster", "ClickHouse", "ELT", "Python"],
-    href: "#"
   }
 ]
 
