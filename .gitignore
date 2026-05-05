@@ -64,3 +64,8 @@ Icon
 
 # IDE / System
 .gemini/
+*.log
+package-lock.json
+
+# pnpm
+.pnpm-store/

@@ -194,7 +194,7 @@ if (data.status === 'PUBLISHED') {
 
         <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mt-12 mb-6">The Symptom vs. Cause Anti-pattern</h2>
         <p>
-          Our alerts were configured based on system resources: "CPU Usage > 80% for 5m". This is fundamentally flawed because it alerts on the <em>cause</em> (resource saturation) rather than the <em>symptom</em> (customer experience degradation). Sometimes CPU runs hot during a perfectly healthy batch processing job. 
+          Our alerts were configured based on system resources: "CPU Usage {'>'} 80% for 5m". This is fundamentally flawed because it alerts on the <em>cause</em> (resource saturation) rather than the <em>symptom</em> (customer experience degradation). Sometimes CPU runs hot during a perfectly healthy batch processing job. 
         </p>
 
         <div className="my-10 p-6 bg-rose-50 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/50 rounded-2xl">
