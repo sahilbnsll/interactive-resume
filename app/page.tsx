@@ -42,7 +42,7 @@ export default function Home() {
               <a 
                 href="/Sahil_Bansal_Resume.pdf" 
                 download 
-                className="flex items-center gap-2 px-4 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-bold shadow-[0_0_20px_rgba(5,150,105,0.4)] transition-all h-fit"
+                className="flex items-center gap-2 px-4 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-bold shadow-[0_0_20px_rgba(5,150,105,0.4)] transition-all h-fit hover:scale-105 active:scale-95"
               >
                 <FileDown className="w-4 h-4" />
                 PDF
@@ -179,8 +179,19 @@ export default function Home() {
                     <div className="sm:w-1/3 shrink-0">
                       <p className="text-xs font-mono font-semibold text-zinc-500 dark:text-zinc-400 mb-2 uppercase tracking-wider">{job.date}</p>
                       <h4 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 flex items-center gap-2 group cursor-default">
-                        {job.company}
-                        <ArrowUpRight className="w-4 h-4 opacity-0 -translate-y-1 translate-x-1 transition-all group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0" />
+                        {job.companyUrl ? (
+                          <a 
+                            href={job.companyUrl} 
+                            target="_blank" 
+                            rel="noreferrer" 
+                            className="hover:text-emerald-500 transition-colors flex items-center gap-2"
+                          >
+                            {job.company}
+                            <ArrowUpRight className="w-4 h-4 opacity-0 -translate-y-1 translate-x-1 transition-all group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0" />
+                          </a>
+                        ) : (
+                          job.company
+                        )}
                       </h4>
                       <p className="text-zinc-600 dark:text-zinc-400 text-sm font-medium mt-1">{job.role}</p>
                     </div>

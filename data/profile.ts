@@ -19,6 +19,7 @@ export const portfoliosData = [
 export const experienceData = [
   {
     company: "Buyogo AG",
+    companyUrl: "https://buyogo.com/",
     role: "Software Engineer — DevOps & Cloud Infrastructure",
     date: "Jun 2024 - Present",
     description: [
@@ -29,6 +30,7 @@ export const experienceData = [
   },
   {
     company: "ZabeSync",
+    companyUrl: "https://sync.zabe.in/",
     role: "Workflow Automation Engineer - Freelance",
     date: "Mar 2026 - Apr 2026",
     description: [
@@ -38,6 +40,7 @@ export const experienceData = [
   },
   {
     company: "Capgemini",
+    companyUrl: "https://www.capgemini.com/",
     role: "Analyst Trainee — Cloud & DevOps",
     date: "Jan 2024 - Jun 2024",
     description: [
@@ -47,6 +50,7 @@ export const experienceData = [
   },
   {
     company: "Qapita Fintech",
+    companyUrl: "https://www.qapita.com/",
     role: "Software Engineer — DevSecOps",
     date: "Jun 2023 - Nov 2023",
     description: [
