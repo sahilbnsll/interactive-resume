@@ -2,8 +2,8 @@ export const personalData = {
   name: "Sahil Bansal",
   title: "DevOps & Cloud Infrastructure Engineer",
   headline: "I build cloud systems that don't break at 3am.",
-  about: "From zero-downtime migrations to cost-optimized infrastructure. I obsess over reliability, automation, and giving teams the confidence to deploy. Currently architecting scalable infrastructure at Buyogo AG.",
-  email: "sahilbansal.sb24@gmail.com",
+  about: "From zero-downtime migrations to cost-optimized infrastructure. I obsess over reliability, automation, and giving teams the confidence to deploy.",
+  email: "connect@sahilbansal.net",
 }
 
 export const socialsData = [
@@ -12,7 +12,7 @@ export const socialsData = [
 ]
 
 export const portfoliosData = [
-  { name: "Portfolio", href: "https://sahilbansal.vercel.app/" },
+  { name: "Portfolio", href: "https://www.sahilbansal.net/" },
   { name: "Showproof", href: "https://showproof.io/@sahil" }
 ]
 
@@ -21,7 +21,7 @@ export const experienceData = [
     company: "Buyogo AG",
     companyUrl: "https://buyogo.com/",
     role: "Software Engineer — DevOps & Cloud Infrastructure",
-    date: "Jun 2024 - Present",
+    date: "Jun 2024 - June 2026",
     description: [
       "Architected a 99.99% available multi-tenant FTP ingress platform (500+ merchants) using SFTP-gateway and automated AWS provisioning.",
       "Led ClickOps → Terraform migration + CI/CD modernization (GitHub Actions), reducing TTR by 40% and improving velocity by 30%.",
@@ -70,7 +70,7 @@ export const educationData = [
 ]
 
 export const skillsCarousel = [
-  "Supabase", "AWS", "Kubernetes", "Docker", "Terraform", "GitHub Actions", 
+  "Supabase", "AWS", "Kubernetes", "EKS",  "Docker", "Terraform", "GitHub Actions", 
   "Prometheus", "Grafana", "PostgreSQL", "Python", "Bash", 
   "MongoDB", "CloudFormation", "ClickHouse", "n8n"
 ]
