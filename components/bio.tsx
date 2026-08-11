@@ -34,10 +34,10 @@ export function Bio({ bio }: BioProps) {
       />
       <div className='ml-4 flex-1'>
         <h1 className='mb-0.5 text-xl'>{bio.name}</h1>
-        <p className='text-muted-foreground text-sm'>{bio.jobTitle}</p>
+        <p className='text-sm text-muted-foreground'>{bio.jobTitle}</p>
 
         {bio.website ? (
-          <span className='text-muted-foreground bg-secondary rounded-full px-2 py-1 text-xs'>
+          <span className='rounded-full bg-secondary px-2 py-1 text-xs text-muted-foreground'>
             <Link href={bio.website} target='_blank' rel='noopener noreferrer'>
               {bio.website.replace(/(^\w+:|^)\/\//, '').replace('www.', '')}
             </Link>

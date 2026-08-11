@@ -27,7 +27,7 @@ export const DynamicGridPattern = ({
             <div
               key={`col` + j}
               className={cn(
-                "bg-transparent hover:bg-primary/20 dark:hover:bg-primary/40 relative h-8 w-16 border-r border-t border-white/5 dark:border-white/10 transition-colors duration-1000 hover:duration-0",
+                "relative h-8 w-16 border-r border-t border-white/5 bg-transparent transition-colors duration-1000 hover:bg-primary/20 hover:duration-0 dark:border-white/10 dark:hover:bg-primary/40",
                 className
               )}
             />

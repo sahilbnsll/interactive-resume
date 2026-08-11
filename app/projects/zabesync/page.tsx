@@ -4,136 +4,136 @@ import Link from 'next/link'
 
 export default function ZabesyncProject() {
   return (
-    <main className="relative min-h-screen bg-zinc-50 dark:bg-[#050505] text-zinc-900 dark:text-zinc-100 selection:bg-zinc-200 dark:selection:bg-white/10 font-sans">
-      <div className="absolute top-6 right-6 z-50">
+    <main className="relative min-h-screen bg-zinc-50 font-sans text-zinc-900 selection:bg-zinc-200 dark:bg-[#050505] dark:text-zinc-100 dark:selection:bg-white/10">
+      <div className="absolute right-6 top-6 z-50">
         <ModeToggle />
       </div>
 
       <div className="mx-auto max-w-4xl px-6 py-24 sm:py-32">
-        <Link href="/" className="inline-flex items-center gap-2 text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors mb-16 text-sm font-medium">
-          <ArrowLeft className="w-4 h-4" />
+        <Link href="/" className="mb-16 inline-flex items-center gap-2 text-sm font-medium text-zinc-500 transition-colors hover:text-zinc-900 dark:hover:text-zinc-100">
+          <ArrowLeft className="size-4" />
           Back to Home
         </Link>
         
         <article className="max-w-none">
-          <div className="flex items-center gap-4 mb-8">
-            <span className="px-3 py-1 text-xs font-semibold tracking-wide uppercase bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-full border border-blue-500/20">
+          <div className="mb-8 flex items-center gap-4">
+            <span className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-400">
               AI Pipeline
             </span>
-            <span className="px-3 py-1 text-xs font-semibold tracking-wide uppercase bg-zinc-100 dark:bg-white/5 text-zinc-600 dark:text-zinc-400 rounded-full border border-zinc-200 dark:border-white/10">
+            <span className="rounded-full border border-zinc-200 bg-zinc-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-zinc-600 dark:border-white/10 dark:bg-white/5 dark:text-zinc-400">
               n8n & Supabase
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
+          <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
             LinkedIn Content Automation
           </h1>
           
-          <p className="text-xl sm:text-2xl text-zinc-600 dark:text-zinc-400 leading-relaxed font-light mb-12">
+          <p className="mb-12 text-xl font-light leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-2xl">
             Reducing content cycle from hours to seconds with Multi-API orchestration and stateful deduplication.
           </p>
 
           {/* Quick Metrics / Summary */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
-            <div className="p-5 rounded-2xl bg-white dark:bg-white/[0.02] border border-zinc-200 dark:border-white/5 shadow-sm">
-              <h3 className="text-xs font-semibold text-zinc-500 dark:text-zinc-400 mb-1 uppercase tracking-wider">Speed</h3>
+          <div className="mb-16 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm dark:border-white/5 dark:bg-white/[0.02]">
+              <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Speed</h3>
               <p className="font-medium text-emerald-600 dark:text-emerald-400">Hours → Seconds</p>
             </div>
-            <div className="p-5 rounded-2xl bg-white dark:bg-white/[0.02] border border-zinc-200 dark:border-white/5 shadow-sm">
-              <h3 className="text-xs font-semibold text-zinc-500 dark:text-zinc-400 mb-1 uppercase tracking-wider">Quality</h3>
+            <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm dark:border-white/5 dark:bg-white/[0.02]">
+              <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Quality</h3>
               <p className="font-medium text-zinc-800 dark:text-zinc-200">Zero duplicate topics</p>
             </div>
-            <div className="p-5 rounded-2xl bg-white dark:bg-white/[0.02] border border-zinc-200 dark:border-white/5 shadow-sm">
-              <h3 className="text-xs font-semibold text-zinc-500 dark:text-zinc-400 mb-1 uppercase tracking-wider">Integrations</h3>
+            <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm dark:border-white/5 dark:bg-white/[0.02]">
+              <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Integrations</h3>
               <p className="font-medium text-zinc-800 dark:text-zinc-200">5-API Orchestration</p>
             </div>
-            <div className="p-5 rounded-2xl bg-white dark:bg-white/[0.02] border border-zinc-200 dark:border-white/5 shadow-sm">
-              <h3 className="text-xs font-semibold text-zinc-500 dark:text-zinc-400 mb-1 uppercase tracking-wider">Control</h3>
+            <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm dark:border-white/5 dark:bg-white/[0.02]">
+              <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">Control</h3>
               <p className="font-medium text-blue-600 dark:text-blue-400">Discord Interface</p>
             </div>
           </div>
 
-          <div className="w-full h-px bg-zinc-200 dark:bg-white/10 mb-16"></div>
+          <div className="mb-16 h-px w-full bg-zinc-200 dark:bg-white/10"></div>
 
           {/* Core Content */}
           <div className="space-y-16">
             
             <section>
-              <h2 className="text-2xl font-bold tracking-tight mb-6">The Problem</h2>
-              <p className="text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed">
+              <h2 className="mb-6 text-2xl font-bold tracking-tight">The Problem</h2>
+              <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
                 LinkedIn content creation is time-intensive, repetitive, and often lacks real-time relevance, reducing posting consistency. Previously, it required manual context-switching across tools, ad-hoc notes, and repetitive tasks to get a post out.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold tracking-tight mb-6">The Solution</h2>
-              <p className="text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-6">
+              <h2 className="mb-6 text-2xl font-bold tracking-tight">The Solution</h2>
+              <p className="mb-6 text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
                 Built an AI-driven n8n automation pipeline with live research, LLM-based generation, and Discord-triggered workflows with Supabase state management. It provides end-to-end automation from research and ideation to drafted posts and one-click publish.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-6 h-6 text-blue-500 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="mt-0.5 size-6 shrink-0 text-blue-500" />
                   <span className="text-zinc-700 dark:text-zinc-300"><strong>n8n over custom code:</strong> Allowed iterating on LLM prompts and API integrations rapidly without code deployments.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-6 h-6 text-blue-500 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="mt-0.5 size-6 shrink-0 text-blue-500" />
                   <span className="text-zinc-700 dark:text-zinc-300"><strong>Discord as a control plane:</strong> Made Discord the single interface for triggering, reviewing, and publishing. Minimal context switching.</span>
                 </li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold tracking-tight mb-6">Architecture</h2>
-              <p className="text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-8">
+              <h2 className="mb-6 text-2xl font-bold tracking-tight">Architecture</h2>
+              <p className="mb-8 text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
                 Three interconnected workflows handle ideation → drafting → publishing with LLM reasoning.
               </p>
               
-              <div className="p-8 rounded-3xl bg-zinc-100 dark:bg-white/5 border border-zinc-200 dark:border-white/10 font-mono text-sm overflow-x-auto text-zinc-600 dark:text-zinc-400">
+              <div className="overflow-x-auto rounded-3xl border border-zinc-200 bg-zinc-100 p-8 font-mono text-sm text-zinc-600 dark:border-white/10 dark:bg-white/5 dark:text-zinc-400">
                 <div className="flex gap-12">
                   <div className="flex flex-col gap-3">
-                    <span className="font-semibold text-zinc-800 dark:text-zinc-200 uppercase tracking-widest text-[10px]">1. Trigger</span>
-                    <span className="px-4 py-2 bg-indigo-50 dark:bg-indigo-950/30 text-indigo-700 dark:text-indigo-400 rounded border border-indigo-200 dark:border-indigo-800 shadow-sm">Discord Interface</span>
+                    <span className="text-[10px] font-semibold uppercase tracking-widest text-zinc-800 dark:text-zinc-200">1. Trigger</span>
+                    <span className="rounded border border-indigo-200 bg-indigo-50 px-4 py-2 text-indigo-700 shadow-sm dark:border-indigo-800 dark:bg-indigo-950/30 dark:text-indigo-400">Discord Interface</span>
                   </div>
-                  <div className="flex flex-col justify-center"><ArrowRight className="w-4 h-4" /></div>
+                  <div className="flex flex-col justify-center"><ArrowRight className="size-4" /></div>
                   <div className="flex flex-col gap-3">
-                    <span className="font-semibold text-zinc-800 dark:text-zinc-200 uppercase tracking-widest text-[10px]">2. Automation</span>
-                    <span className="px-4 py-2 bg-white dark:bg-black rounded border border-zinc-300 dark:border-zinc-700 shadow-sm">n8n on EC2</span>
-                    <span className="px-4 py-2 bg-white dark:bg-black rounded border border-zinc-300 dark:border-zinc-700 shadow-sm">Gemini LLM</span>
+                    <span className="text-[10px] font-semibold uppercase tracking-widest text-zinc-800 dark:text-zinc-200">2. Automation</span>
+                    <span className="rounded border border-zinc-300 bg-white px-4 py-2 shadow-sm dark:border-zinc-700 dark:bg-black">n8n on EC2</span>
+                    <span className="rounded border border-zinc-300 bg-white px-4 py-2 shadow-sm dark:border-zinc-700 dark:bg-black">Gemini LLM</span>
                   </div>
-                  <div className="flex flex-col justify-center"><ArrowRight className="w-4 h-4" /></div>
+                  <div className="flex flex-col justify-center"><ArrowRight className="size-4" /></div>
                   <div className="flex flex-col gap-3">
-                    <span className="font-semibold text-zinc-800 dark:text-zinc-200 uppercase tracking-widest text-[10px]">3. Data</span>
-                    <span className="px-4 py-2 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-400 rounded border border-emerald-200 dark:border-emerald-800 shadow-sm">Supabase State</span>
+                    <span className="text-[10px] font-semibold uppercase tracking-widest text-zinc-800 dark:text-zinc-200">3. Data</span>
+                    <span className="rounded border border-emerald-200 bg-emerald-50 px-4 py-2 text-emerald-700 shadow-sm dark:border-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-400">Supabase State</span>
                   </div>
-                  <div className="flex flex-col justify-center"><ArrowRight className="w-4 h-4" /></div>
+                  <div className="flex flex-col justify-center"><ArrowRight className="size-4" /></div>
                   <div className="flex flex-col gap-3">
-                    <span className="font-semibold text-zinc-800 dark:text-zinc-200 uppercase tracking-widest text-[10px]">4. Outbound</span>
-                    <span className="px-4 py-2 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-400 rounded border border-blue-200 dark:border-blue-800 shadow-sm">LinkedIn API</span>
+                    <span className="text-[10px] font-semibold uppercase tracking-widest text-zinc-800 dark:text-zinc-200">4. Outbound</span>
+                    <span className="rounded border border-blue-200 bg-blue-50 px-4 py-2 text-blue-700 shadow-sm dark:border-blue-800 dark:bg-blue-950/30 dark:text-blue-400">LinkedIn API</span>
                   </div>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold tracking-tight mb-6">Key Incidents & Learnings</h2>
+              <h2 className="mb-6 text-2xl font-bold tracking-tight">Key Incidents & Learnings</h2>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="p-6 rounded-2xl bg-zinc-50 dark:bg-white/[0.02] border border-zinc-200 dark:border-white/5">
-                  <h3 className="font-semibold text-lg text-zinc-900 dark:text-white mb-2">API Rate Limiting</h3>
-                  <p className="text-zinc-700 dark:text-zinc-300 mb-4 text-sm">
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6 dark:border-white/5 dark:bg-white/[0.02]">
+                  <h3 className="mb-2 text-lg font-semibold text-zinc-900 dark:text-white">API Rate Limiting</h3>
+                  <p className="mb-4 text-sm text-zinc-700 dark:text-zinc-300">
                     <strong>Issue:</strong> Web search API rate limiting and free tier limits causing workflow failures.
                   </p>
-                  <p className="text-zinc-700 dark:text-zinc-300 text-sm">
+                  <p className="text-sm text-zinc-700 dark:text-zinc-300">
                     <strong>Resolution:</strong> Implemented multi-AI fallback mechanisms, cached research results, and batched searches. Prompt engineering was also optimized to reduce token usage.
                   </p>
                 </div>
 
-                <div className="p-6 rounded-2xl bg-zinc-50 dark:bg-white/[0.02] border border-zinc-200 dark:border-white/5">
-                  <h3 className="font-semibold text-lg text-zinc-900 dark:text-white mb-2">Webhook Connectivity</h3>
-                  <p className="text-zinc-700 dark:text-zinc-300 mb-4 text-sm">
+                <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6 dark:border-white/5 dark:bg-white/[0.02]">
+                  <h3 className="mb-2 text-lg font-semibold text-zinc-900 dark:text-white">Webhook Connectivity</h3>
+                  <p className="mb-4 text-sm text-zinc-700 dark:text-zinc-300">
                     <strong>Issue:</strong> Discord bot webhook connectivity issues causing missed triggers.
                   </p>
-                  <p className="text-zinc-700 dark:text-zinc-300 text-sm">
+                  <p className="text-sm text-zinc-700 dark:text-zinc-300">
                     <strong>Resolution:</strong> Configured n8n webhook nodes with robust retry logic and proper Discord bot token management to ensure no events are dropped.
                   </p>
                 </div>

@@ -23,7 +23,7 @@ export const InfiniteCarousel = ({
     >
       <div
         className={cn(
-          "animate-infinite-scroll flex w-max items-stretch gap-[--gap]",
+          "flex w-max animate-infinite-scroll items-stretch gap-[--gap]",
           {
             "[animation-direction:reverse]": reverseDirection,
             "hover:[animation-play-state:paused]": pauseOnHover,
