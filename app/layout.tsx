@@ -7,8 +7,16 @@ import { GeistSans } from 'geist/font'
 import { ThemeProvider } from '@/components/theme-provider'
 
 export const metadata: Metadata = {
-  title: 'Next-cv',
-  description: 'Read.cv cloned built with Next.js and Tailwind CSS',
+  title: 'Sahil Bansal — Resume',
+  description: 'Interactive resume of Sahil Bansal — DevOps & Cloud Engineer. Built with Next.js and Tailwind CSS.',
+  icons: {
+    icon: [
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/favicon.ico' },
+    ],
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
