@@ -3,7 +3,7 @@ export const personalData = {
   title: "DevOps & Cloud Infrastructure Engineer",
   headline: "I build cloud systems that don't break at 3am.",
   about: "From zero-downtime migrations to cost-optimized infrastructure. I obsess over reliability, automation, and giving teams the confidence to deploy.",
-  email: "connect@sahilbansal.net",
+  email: "contact@sahilbansal.net",
 }
 
 export const socialsData = [
@@ -70,8 +70,8 @@ export const educationData = [
 ]
 
 export const skillsCarousel = [
-  "Supabase", "AWS", "Kubernetes", "EKS",  "Docker", "Terraform", "GitHub Actions", 
-  "Prometheus", "Grafana", "PostgreSQL", "Python", "Bash", 
+  "Supabase", "AWS", "Kubernetes", "EKS", "Docker", "Terraform", "GitHub Actions",
+  "Prometheus", "Grafana", "PostgreSQL", "Python", "Bash",
   "MongoDB", "CloudFormation", "ClickHouse", "n8n"
 ]
 
